@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+@import './mapas';
+@import './mixins';
+@import './fonts';
+@import './variables';
+
+@import './component/header';
+@import './component/inicio';
+@import './component/quienessomos';
+@import './component/quehacemos';
+@import './component/contactanos';
+@import'./extends';
+@import './component/footer';
+
+
+
+
+
+ body {
+   background-color: #000 ;
+ }
+  
+
+  
+ h2 {
+   font-family: 'JetBrains Mono', monospace; 
+   color: #97CA2D;
+   text-align: center;
+   font-size: 25px;
+   font-weight: bold;
+   
+ }
+  
+
+
+ 

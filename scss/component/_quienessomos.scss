@@ -1,0 +1,50 @@
+ /*quienes somos*/
+
+
+ .contenedor__equipo{
+  h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #97CA2D;
+    text-align: center;
+    font-size: map-get($letra, tamano);
+    
+  }
+   .contenedor__equipo__parrafo{
+      color:white;
+      text-align: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: medium;
+    
+   }
+  
+    .contenedor__equipo__parrafo1{
+  
+      color:white;
+      text-align: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: medium;
+    }
+   
+    .contenedor__equipo__galeria{
+      @include img (flex,space-evenly);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /*display: flex;*/
+      flex-direction:row-reverse;
+      /*justify-content:space-evenly;*/
+      
+    
+      .equipo__galeria__imagen{
+        height: 20rem;
+        width: 20rem;
+        object-fit: cover;
+       }
+    
+    }
+ 
+ }
+
+
+  
+  

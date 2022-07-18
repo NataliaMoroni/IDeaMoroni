@@ -1,0 +1,77 @@
+  /*Contacto*/
+  .contenedor__contacto{
+      
+   .contenedor__contacto__info {
+      font-family: 'JetBrains Mono', monospace;
+      color:white;
+      text-align:center;
+      font-size: medium;
+      list-style: none;
+
+      .contacto__info__ubicacion {
+         width: 30px;
+      }
+   }
+
+   .contenedor__formulario{ /*flex-direction:column y alig-items:center*/
+      display: flex;
+     flex-direction:column;
+     align-items:center;
+     
+
+      
+     
+      .formulario{
+         display:flex;
+         font-family: 'JetBrains Mono', monospace;
+         color:white;
+         text-align:left;
+         font-size: medium;
+         margin: 20px;
+         padding: 10px;
+         flex-direction:column;
+         align-items: center;
+          
+
+         .formulario__leyenda{
+            text-align: center;
+            font-size: 20px;
+         }
+
+         input{
+         
+            @extend %botones;
+         }
+
+         .marca_auto{
+            text-align: center;
+            @extend %botones2;
+         }
+
+         .enviar-formulario {
+            display:inline-block;
+
+            @extend %botones;
+         }
+          .limpiar-formulario {
+            display:inline-block;
+            
+            @extend %botones;
+          }
+         
+
+      }
+
+   }
+
+
+  }
+  
+ 
+  
+  
+   
+  
+  
+  
+   

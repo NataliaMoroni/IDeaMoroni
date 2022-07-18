@@ -1,0 +1,33 @@
+/*footer*/
+.contenedor__piedepagina{
+    background-color: #232830aa;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+
+    .contenedor__piedepagina__lista{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-self: flex-end;
+      align-items:center;
+      width: 100%;
+      padding: 1em;
+
+      .contenedor__piedepagina__lista__imagen{
+         width: 2rem;
+      }
+
+      .contenedor__piedepagina__lista__link{
+         color:#fff;
+         text-decoration: none;
+      }
+
+   }
+
+
+}
+   
+ 
+   
+  
+  
