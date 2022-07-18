@@ -50,12 +50,11 @@
 
          .enviar-formulario {
             display:inline-block;
-
             @extend %botones;
+
          }
           .limpiar-formulario {
             display:inline-block;
-            
             @extend %botones;
           }
          
