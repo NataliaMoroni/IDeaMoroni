@@ -129,8 +129,8 @@
 .contenedor__contacto .contenedor__formulario .formulario input, .contenedor__contacto .contenedor__formulario .formulario .enviar-formulario, .contenedor__contacto .contenedor__formulario .formulario .limpiar-formulario {
   background-color: white;
   border-radius: 10px;
-  width: 60vh;
-  height: 7vh;
+  width: 45vh;
+  height: 6vh;
 }
 
 .contenedor__contacto .contenedor__formulario .formulario .marca_auto {
