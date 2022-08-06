@@ -13,34 +13,62 @@
       }
    }
 
-   .contenedor__formulario{ /*flex-direction:column y alig-items:center*/
+   .whatsapp{
       display: flex;
+      justify-content: right;
+       
+   }
+     
+   .whatsapp__imagen{
+      position:fixed;
+      width: 70px;
+      height: 70px;
+      right: 15px;
+      bottom: 2rem;
+      z-index: 100;
+   }
+   @media (max-width:767px){
+      .whatsapp__imagen{
+          width: 50px;
+          height: 50px;
+      } 
+    }
+
+
+   .contenedor__formulario{ 
+     display: flex;
      flex-direction:column;
      align-items:center;
-     
+    
 
-      
-     
       .formulario{
          display:flex;
          font-family: 'JetBrains Mono', monospace;
          color:white;
          text-align:left;
          font-size: medium;
-         margin: 20px;
-         padding: 10px;
+         margin: 30px;
+         padding: 20px;
+        
          flex-direction:column;
          align-items: center;
+         text-align: center;
           
+         
+      
+         ul{
+           list-style-type: none;
+         }
 
-         .formulario__leyenda{
+       /*  .formulario__leyenda{
             text-align: center;
             font-size: 20px;
-         }
+         } */
 
          input{
          
             @extend %botones;
+            
          }
 
          .marca_auto{
@@ -48,29 +76,25 @@
             @extend %botones2;
          }
 
+         .textarea{
+            @extend %botones;
+           /* border-radius: 10px;
+            width: 45vh;
+            height: 10vh;*/
+          }
+
          .enviar-formulario {
             display:inline-block;
-            @extend %botones;
-
+           @extend %botones2;
          }
-          .limpiar-formulario {
-            display:inline-block;
-            @extend %botones;
-          }
-         
-
+          
+      
       }
 
    }
-
-
-  }
   
  
-  
-  
-   
-  
+}
   
   
    
